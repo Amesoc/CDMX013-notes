@@ -5,31 +5,11 @@
 html, 
 body{
     font-size: 20px;
-    background-color: rgb(73, 108, 143);
+    background-color: rgb(104, 137, 169);
 }
 
-h1{
-    font-family: 'Italianno', cursive;
-    font-size: 5.5rem;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 40px 100px;
-    max-width: 900px;
-    color: rgba(14, 14, 14, 0.478);
-}
 
-.App{
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
 
-.register-google{
-    width: 500px;
-    position: absolute;
-    padding: 210px;
-    left: 300px;
 
-}
+
+

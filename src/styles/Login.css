@@ -1,0 +1,34 @@
+h1 {
+   max-width: 940px;
+   color: rgb(37, 37, 103);
+   font-size: 4.5em;
+   font-family: 'Italianno', cursive;
+   top: 0px;
+   text-align: center;
+   margin: 100px 0;
+}
+
+.content-start {
+   min-height:50vh;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.registerGoogle{
+   cursor: pointer;
+   background-image: url('../img/botonGoogle.png');
+   background-repeat: no-repeat;
+   width: 200px;
+   position:relative;
+   border-radius: 10px;
+   top: 500px;
+   height: 50px;
+   padding: 10px 0 0 0;
+   left:40px;
+   display: flex;
+
+}
