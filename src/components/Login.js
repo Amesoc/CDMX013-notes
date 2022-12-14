@@ -20,12 +20,12 @@ function Login(props) {
 
   return (
     <div className='content-start'>
+      <h1>My notes</h1>
       <img
         className='logo'
         src={require('../img/logoNote2.png')}
         alt='Imagen logo' />
       <button className='registerGoogle' onClick={handleclick}></button>
-      <h1>My notes</h1>
     </div>
 
   )

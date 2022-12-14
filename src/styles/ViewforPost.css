@@ -1,0 +1,32 @@
+.noteAdd{
+   
+    color: rgb(60, 60, 75);
+    font-size: 4em;
+    font-family: 'Italianno', cursive;
+    top: 50px;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+}
+
+.addNote{
+    opacity: 1;
+    background-color: rgb(104, 137, 169);
+    border-color:rgb(104, 137, 169) ;
+    border-width: 10px;
+    height: 150px;
+    top: 300px;
+   
+
+}
+@media (max-width:768px){
+    .content-start{
+       width: 75%;
+    }
+ }
+ 
+ @media (max-width:480px){
+    .content-start{
+       width: 95%;
+    }
+ }

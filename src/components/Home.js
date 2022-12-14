@@ -1,14 +1,17 @@
 import React from 'react';
 import {signOutUser} from '../config/AuthGoogle';
-import SearchNote from './SearchNote';
+import ViewforPost from './ViewforPost';
 import Header from './Header';
+import ViewNavigation from './ViewNavigation';
 import CreateNote from './CreateNote';
+
 
 function Home() {
     return (
         <div>
             <Header />
-            <SearchNote/>
+            <ViewNavigation/>
+            <ViewforPost/>
             <CreateNote/>
         </div>
     )

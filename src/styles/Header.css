@@ -1,23 +1,37 @@
 .headerApp{
-    width: 650px;
-    height: 5.5em;
-    margin: 10px 50px 10px 50px;
-    display: flex;
-    justify-content:flex-start;
+    width: 100%;
+    max-width: 800px;
+    max-height: 900px;
+    height: 200px;
+    margin-top: 5%;
+    padding: 10px 5px 10px 5px;
     background-color: rgb(126, 153, 180);
-    top: 100px;
-    border-radius: 10px;
+    font-size: 2em;
+    display: flex;
 }
 
 h3{
-    color: rgb(37, 37, 103);
+    color: rgb(60, 60, 75);
     font-family: 'Italianno', cursive;
-    font-size: 3.5em;
+    font-size: 3em;
     justify-content: flex;
     margin: 5px 20px;
 }
 
 .logoHome{
     position: relative;
-    left: 250px;
+    left: 100px;
+    width: 200px;
+}
+
+@media (max-width:768px){
+    .content-start{
+       width: 75%;
+    }
+ }
+ 
+ @media (max-width:480px){
+    .content-start{
+       width: 95%;
+    }
 }

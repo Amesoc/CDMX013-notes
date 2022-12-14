@@ -1,34 +1,56 @@
+.content-start {
+   margin-top: 5%;
+   width: 100%;
+   max-width: 500px;
+   max-height: 1000px;
+   background-color: rgb(104, 137, 169);
+   padding: 20px 30px;
+   display: inline-block;
+   height: 100vh;
+   justify-content:space-between;
+   position: absolute;
+
+}
+
 h1 {
    max-width: 940px;
    color: rgb(37, 37, 103);
-   font-size: 4.5em;
+   font-size: 6.5em;
    font-family: 'Italianno', cursive;
    top: 0px;
    text-align: center;
    margin: 100px 0;
 }
 
-.content-start {
-   min-height:50vh;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   display: flex;
-   flex-direction: column-reverse;
+.logo {
+   height: 40%;
+   right: 150px;
 }
 
-.registerGoogle{
+.registerGoogle {
    cursor: pointer;
    background-image: url('../img/botonGoogle.png');
    background-repeat: no-repeat;
    width: 200px;
-   position:relative;
+   position: relative;
    border-radius: 10px;
-   top: 500px;
+   top: 20px;
    height: 50px;
    padding: 10px 0 0 0;
-   left:40px;
+   left: 200px;
    display: flex;
+   box-shadow: 0 3px 13px 1px rgb(37, 37, 103);
 
+}
+
+@media (max-width:768px){
+   .content-start{
+      width: 75%;
+   }
+}
+
+@media (max-width:480px){
+   .content-start{
+      width: 95%;
+   }
 }
